@@ -16,13 +16,21 @@ Write a program to find sum of two integer numbers
 
 
 #include <stdio.h>
+
 int main()
+
 {
+
     int x,y,s=0;
+    
     scanf("%d%d",&x,&y);
+    
     s=x+y;
+    
     printf("Sum of %d and %d=%d",x,y,s);
+    
     return 0;
+    
 }
 ## OUTPUT:
 
