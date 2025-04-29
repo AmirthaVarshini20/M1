@@ -13,6 +13,8 @@ Write a program to find sum of two integer numbers
 
 	
 ## PROGRAM:
+
+
 #include <stdio.h>
 int main()
 {
@@ -110,6 +112,8 @@ Write a program to find maximum between two fraction numbers using conditional o
 5.	End the program by returning 0. 
 
 ## PROGRAM:
+
+
 #include <stdio.h>
 int main()
 {
@@ -151,6 +155,8 @@ Write a C program to find the absolute value of a number entered by the user thr
 
 
 ## PROGRAM:
+
+
 #include <stdio.h>
 int main()
 {
@@ -203,6 +209,8 @@ c.	Else if percentage >= 36: Print “Division = Pass”
 9.	Else: Print “Division = Fail”
 10.	End
 ## PROGRAM:
+
+
 #include <stdio.h>
 int main()  
 {
