@@ -68,15 +68,21 @@ Write a C program to check whether a number is positive or negative using if-els
 6.      End the program.
 
 # PROGRAM:
+
 #include <stdio.h>
 
 int main()
+
 {
+
     int num;
+    
     scanf("%d", &num);
     
     if(num >= 0)
+    
     {
+    
         
         printf("Number is positive.");
     }
@@ -84,9 +90,12 @@ int main()
     {
        
         printf("Number is negative.");
+	
     }
+    
 
     return 0;
+    
 }
 # OUTPUT:
 ![image](https://github.com/user-attachments/assets/b6da0530-6a6c-463a-bec2-4df8a7333fdb)
@@ -123,13 +132,21 @@ Write a program to find maximum between two fraction numbers using conditional o
 
 
 #include <stdio.h>
+
 int main()
+
 {
+
     float x,y;
+    
     scanf("%f%f",&x,&y);
+    
     (x>y)?printf("Maximum between %.2f and %.2f is %.2f",x,y,x):printf("Maximum between %.2f and %.2f is %.2f",x,y,y);
+    
     return 0;
+    
 }
+
 ## OUTPUT:
 
 ![image](https://github.com/user-attachments/assets/8ab2f657-a4dd-4dff-9db3-36d68f763c17)
@@ -166,20 +183,35 @@ Write a C program to find the absolute value of a number entered by the user thr
 
 
 #include <stdio.h>
+
 int main()
+
 {
+
     int x,y;
+    
     scanf("%d",&x);
+    
     if (x<0)
+    
     {
+    
         y=-x;
+	
         printf("Absolute value = %d",y);
+	
     }
+    
     else
+    
     {
+    
         printf("Absolute value = %d",x);
+	
     }
+    
     return 0;
+    
 }
 ## OUTPUT:
 ![image](https://github.com/user-attachments/assets/e586d058-a724-44b7-8ec6-358b5774704d)
@@ -220,26 +252,47 @@ c.	Else if percentage >= 36: Print “Division = Pass”
 
 
 #include <stdio.h>
+
 int main()  
+
 {
+
     int s1,s2,s3,total;
+    
     float per;
+    
     scanf("%d%d%d",&s1,&s2,&s3);
+    
         total=s1+s2+s3;
+	
         per=(total/3.0);
+	
     printf("Total Marks = %d\n",total);
+    
     printf("Percentage = %.2f\n",per);
+    
     if(s1<40 || s2<40 || s3<40 || per<36){
+    
         printf("Division = Fail\n");
+	
     }else{
+    
    if (per>=60){
+   
         printf("Division = First\n");
+	
     }else if(per >=48){
+    
         printf("Division = Second\n");
+	
     }else if(per>=36){
+    
         printf("Division = Pass\n");
+	
     }}
+    
     return 0;
+    
 }
 
 ## OUTPUT:
